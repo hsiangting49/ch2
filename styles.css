@@ -1,0 +1,94 @@
+body {
+  display: flex-row;
+  font-family: Helvetica, sans-serif;
+  color: #EAE8FF;
+  background: #2D3142;
+  padding: 0 40px;
+  justify-content: center;
+  text-align: center;
+  margin: 0; /* Reset default margin */
+  padding-bottom: 100px; /* Add padding to the bottom to create space for the footer */
+  min-height: 100vh; /* Ensure body fills the viewport height */
+  position: relative; /* Ensure proper positioning */
+}
+header {
+  margin: 30px; 
+  height: 100px;
+}
+
+nav {
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 50px;
+  background: #212431;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 20px;
+  color: #EAE8FF;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.container{
+display:flex-column;
+width: 80%;
+margin: 0 auto;  
+}
+.content {
+margin: 20px 30px; 
+justify-content: left;
+}
+
+p {
+text-align: left;
+padding-bottom: 30px;
+}
+.p1:first-letter {
+ 
+  initial-letter: 3 2;
+  -webkit-initial-letter: 3 2;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 1rem;
+  margin-bottom: 5vh;
+  color: var(--indigo-8);
+  text-shadow: 0.25rem 0.25rem grey;
+}
+
+.p2:first-letter {
+ 
+  initial-letter: 2 1;
+  -webkit-initial-letter: 2 1;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 1rem;
+  margin-bottom: 5vh;
+  color: var(--indigo-8);
+  text-shadow: 0.25rem 0.25rem grey;
+}
+
+footer {
+background: #212431;
+display: flex;
+justify-content:center;
+text-align: center; /* 文字置中 */
+position: fixed; /* 固定在底部 */
+left: 0; /* 拉伸到左邊 */
+bottom: 0; /* 拉伸到底部 */
+width: 100%; /* 撐滿整個寬度 */
+
+}
